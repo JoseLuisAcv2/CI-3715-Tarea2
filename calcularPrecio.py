@@ -64,7 +64,7 @@ def finDeSemana(dia):
 # 
 #    - Dominio de Datos:
 #    
-#        El dominio de la función consta de pares ordenados cuya 1ra coordenada es
+#        El dominio de la funcion consta de pares ordenados cuya 1ra coordenada es
 #        un objeto del tipo tarifa y la 2da coordenada es un objeto de tipo tiempoDeServicio.
 #
 #        La tarifa determinar el monto a pagar por hora en dias de semana y fines de semana.
