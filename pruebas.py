@@ -14,7 +14,7 @@ from decimal import Decimal
 from calcularPrecio import *
 from logging import exception
 
-# Pruebas para la clase de Tarifa
+# Pruebas para la clase de Tarifa.
 class TestTarifa(unittest.TestCase):
     
     def testTarifaNegativaSemana(self):
@@ -40,7 +40,7 @@ class TestTarifa(unittest.TestCase):
         self.assertEqual(t.finDeSemana,Decimal("20"))
 
 
-# Pruebas para la clase de Tiempos de Servicio
+# Pruebas para la clase de Tiempos de Servicio.
 class TestTiempoDeServicio(unittest.TestCase):
     
     def testTiempoDeServicioCorrecto(self):
