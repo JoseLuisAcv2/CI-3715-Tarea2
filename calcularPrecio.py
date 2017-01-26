@@ -5,7 +5,8 @@
 #               - Augusto Hidalgo   13-10665
 #
 #	Software para cobrar tarifas de servicio dado un
-#	intervalo de tiempo y costos semanales.
+#	intervalo de tiempo y costos por dias de semana y
+#	fines de semana.
 #
 
 import sys
