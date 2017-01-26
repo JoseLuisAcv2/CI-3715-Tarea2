@@ -4,6 +4,9 @@
 #   Autores:    - Jose Acevedo      13-10006
 #               - Augusto Hidalgo   13-10665
 #
+#	Conjunto de pruebas unitarias desarrolladas con
+#	PyUnit para probar la correctitud del software.
+#
 
 import unittest
 from datetime import *

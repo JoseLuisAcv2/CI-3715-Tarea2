@@ -4,6 +4,10 @@
 #   Autores:    - Jose Acevedo      13-10006
 #               - Augusto Hidalgo   13-10665
 #
+#	Software para cobrar tarifas de servicio dado un
+#	intervalo de tiempo y costos semanales.
+#
+
 import sys
 import datetime
 import decimal
