@@ -38,8 +38,12 @@ class TestTarifa(unittest.TestCase):
         t = Tarifa("10","20")
         self.assertEqual(t.semana,Decimal("10"))
         self.assertEqual(t.finDeSemana,Decimal("20"))
-
-
+	
+    def testTarifaGrande(self):
+        t = Tarifa("1000000","2000000")
+        self.assertEqual(t.semana,Decimal("1000000"))
+        self.assertEqual(t.finDeSemana,Decimal("2000000"))
+		
 # Pruebas para la clase de Tiempos de Servicio.
 class TestTiempoDeServicio(unittest.TestCase):
     
